@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Directorio de Restaurantes</title>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <nav class="nav">
+                <div class="menu toggle">
+                    <i class="fas fa-bars"></i>
+                    <i class="fas fa-times"></i>
+                    
+                </div>
+                <Ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link active"><H3>DIRECTORIO</H3></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link active"><H3>RESTAURANTES</H3></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link active" id="Nuevo"><h3>NUEVO</h3></a>
+                    </li>
+                        
+                    </li>
+                </Ul>
+            </nav>
+    </div>
+    <div class="box">
+        <input type="text" id="buscador" name="search"  placeholder="Buscar cualquier restaurante"  class="src" autocomplete="off">
+        <ul id="Resultado">
+            
+        </ul>
+    
+    </div>
+   
+    
+    </header>
+
+
+    <section class="hero" id="hero">
+        <div class="Bienvenido">
+            <h2 class="h2-sub">
+                <span class="fil">B</span>ienvenido
+            </h2>
+            <h1 class="head">Directorio de Restaurantes</h1>
+            <div class="he-des">
+                <h5>Escoge lo que mas te guste </h5>
+                <a href="#" class="btn cta-btn">Explora</a>
+            </div>
+        </div>
+    </section>
+
+    <div class="container">
+    <div class="card" id="card">
+        <img src="images/arroz-con-langostinos-comida-de-mar.jpg">
+        <li>
+        <h1>Pacifico Mar</h1>
+        <p>Av 85 Nro. 45-85 Barranquilla</p>
+        <p>Deliciosa comida de mar</p>
+        <a href="#">Ingresar</a>
+        </li>
+    </div>
+
+            <div class="card">
+                <img src="Images/images italian.jpg">
+                <li>
+                <h1>Italiano 65</h1>
+                <p>Av 45 Nro. 1-85 Medellin</p>
+                <p>Deliciosa comida italiana</p>
+                <a href="#">Ingresar</a>
+                </li>
+            </div>
+
+                    <div class="card">
+                        <img src="Images/papas.jpg">
+                        <li>
+                        <h1>Fritos y mas</h1>
+                        <p>Calle 45 Medellin</p>
+                        <p>Comida rapida</p>
+                        <a href="#">Ingresar</a>
+                        </li>
+                    </div>
+
+                    <div class="card">
+                        <img src="Images/i24_pollo_frito_2021.jpg">
+                        <li>
+                        <h1>Pollo frito</h1>
+                        <p>Cr 32 # 56-89</p>
+                        <p>Lo mejor del pollo frito</p>
+                        <a href="#">Ingresar</a>
+                        </li>
+                    </div>
+                    
+                    
+        </div>
+    </div>
+
+    <section class="registro">
+        <h1>Registro nuevo restaurante</h1></a>
+
+    </section>
+
+    <section class="form-register">
+        <h4>Registro de restaurante</h4>
+        <input class="controls" type="text" name="nombre" id="nombre" placeholder="Ingrese el nombre del restaurante">
+        <input class="controls" type="text" name="descripcion" id="descripcion" placeholder="Ingrese descripcion del restaurante">
+        <input class="controls" type="text" name="direccion" id="direccion" placeholder="Ingrese la direccion del restaurante">
+        <input class="controls" type="text" name="imagen url" id="imagen url" placeholder="Ingrese imagen url del restaurante">
+        <input class="botons" type="submit" value="Registrar">
+    </section>
+</body>
+</html>
